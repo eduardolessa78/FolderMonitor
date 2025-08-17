@@ -3,5 +3,9 @@ Monitoramento de pasta com cópia e versionamento por data de alteração
 
 Arquivo config.json editar os caminhos da pasta de origin e backup
 
-Programa fica monitorando a pasta "origin" e faz uma cópia do conteúdo para "backup"
-Sempre que algum aquivo é modificado em "origin" nova cópia é criada mantendo a anterior na pasta "backup" renomeada com a data e hora da modificação
+Funções:
+
+- Ao inicializar sincroniza as pastas "origin" e "backup";
+- Monitora pasta "origin" realizando cópia/sincronização com pasta "backup";
+- Alterações em "origin" cópia criada em "backup" renomeando anterior com a data e hora da modificação;
+- Novos arquivos copiados para "backup".
