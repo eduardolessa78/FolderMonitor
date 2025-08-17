@@ -1,0 +1,2 @@
+pyinstaller --onefile folder_monitor.py
+pyinstaller --onefile --noconsole folder_monitor.py
